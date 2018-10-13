@@ -8,3 +8,6 @@ The extension allows you to paste items in your clipboard for later access.
 * hover over a slot to view full contents
 * easy copy and paste access
 * handy Alt + C shortcut to open clipboard
+
+
+![Copy Paste Clipboard screenshot](https://github.com/karolien/clipboard-extension/blob/master/screenshot.png)
