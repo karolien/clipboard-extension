@@ -1,0 +1,58 @@
+#popup-content{
+  display: inline-block;
+  background: #f0ebd8;
+  border-style: solid;
+  padding: 10px 0 0;
+}
+.copy{
+  background-image: url("copy.png");
+}
+.copy:hover{
+  background-image: url("copy2.png");
+}
+.paste{
+  background-image: url("paste.png");
+}
+.paste:hover{
+  background-image: url("paste2.png");
+}
+img{
+  height: 25px;
+}
+.icon{
+  cursor: pointer;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  margin: 0 5px 0 0;
+}
+.clipBox{
+  display: flex;
+  height: 30px;
+}
+input{
+  width: 140px;
+  margin: 0 10px;
+}
+.reset {
+  background-color: #3e5c76;
+  color: white;
+  border-radius: 20px;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  margin: 3% 5%;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.reset:hover {
+  background-color: #748cab;
+}
+#middlemanTextbox { 
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+}
